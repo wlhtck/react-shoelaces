@@ -51,7 +51,8 @@
     "grid",
     "css-in-js",
     "styled-components",
-    "react"
+    "react",
+    "flexbox"
   ],
   "author": "Will Hitchcock",
   "license": "MIT",
