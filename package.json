@@ -1,0 +1,49 @@
+{
+  "name": "react-shoelaces",
+  "version": "0.0.1",
+  "description": "Shoelaces for react",
+  "main": "lib/react-shoelaces.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "~6.6.5",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "3.5.0",
+    "eslint": "3.19.0",
+    "eslint-loader": "1.7.1",
+    "jest": "^21.0.2",
+    "webpack": "3.1.0",
+    "yargs": "7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/will-hitchcock/react-shoelaces.git"
+  },
+  "keywords": [
+    "grid",
+    "css-in-js",
+    "styled-components",
+    "react"
+  ],
+  "author": "Will Hitchcock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/will-hitchcock/react-shoelaces/issues"
+  },
+  "homepage": "http://shoelaces-js.com",
+  "dependencies": {
+    "shoelaces": "0.0.2"
+  }
+}
