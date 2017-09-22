@@ -1,5 +1,5 @@
 # < 👟 /> react-shoelaces
-
+[![CircleCI](https://circleci.com/gh/will-hitchcock/react-shoelaces.svg?style=svg)](https://circleci.com/gh/will-hitchcock/react-shoelaces)
 
 shoelaces for react
 
