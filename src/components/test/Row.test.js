@@ -1,4 +1,4 @@
-import Row from './Row'
+import Row from '../Row'
 
 describe('container', () => {
   it('should render a <Row />', () => {

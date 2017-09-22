@@ -1,4 +1,4 @@
-import Col from './Col'
+import Col from '../Col'
 
 describe('container', () => {
   it('should render a <Col />', () => {

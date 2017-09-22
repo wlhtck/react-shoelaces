@@ -1,4 +1,4 @@
-import Container from './Container'
+import Container from '../Container'
 
 describe('container', () => {
   it('should render a <Container />', () => {
