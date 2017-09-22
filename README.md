@@ -4,7 +4,7 @@
 shoelaces for react
 
 ## Features
-Coming soon...
+React component implementations for shoelaces
 
 ## Getting started
 
@@ -16,9 +16,30 @@ npm install --save react-shoelaces
 
 ### Grid
 
-#### container
-Coming soon...
-#### row
-Coming soon...
-#### col
-Coming soon...
+#### Container
+```javascript
+import { Container } from 'react-shoelaces'
+
+export const MyContainer = ({ children }) =>
+  <Container>
+    {children}
+  </Container>
+```
+#### Row
+```javascript
+import { Row } from 'react-shoelaces'
+
+export const MyRow = ({ children }) =>
+  <Row gutter='0.5em'>
+    {children}
+  </Row>
+```
+#### Col
+```javascript
+import { Col } from 'react-shoelaces'
+
+export const MyCol = ({ children }) =>
+  <Row xs={1} md={6/12} gutter='0.5em'>
+    {children}
+  </Row>
+```
