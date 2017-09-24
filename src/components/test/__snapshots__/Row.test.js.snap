@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`container should render a <Row /> 1`] = `
+exports[`<Row /> should render a <Row /> 1`] = `
 <div
-  className="sc-bdVaJa hTGjNX"
+  className="sc-bdVaJa cErtkT"
 />
 `;
