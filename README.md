@@ -39,7 +39,17 @@ export const MyRow = ({ children }) =>
 import { Col } from 'react-shoelaces'
 
 export const MyCol = ({ children }) =>
-  <Row xs={1} md={6/12} gutter='0.5em'>
+  <Col xs={1} md={6/12} gutter='0.5em'>
     {children}
-  </Row>
+  </Col>
+```
+
+#### Flex
+```javascript
+import { Flex } from 'react-shoelaces'
+
+export const MyFlex = ({ children }) =>
+  <Flex xs={1} md={6/12} gutter='0.5em'>
+    {children}
+  </Flex>
 ```
