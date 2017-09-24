@@ -67,7 +67,7 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "shoelaces": "0.0.2",
+    "shoelaces": "0.1.0",
     "styled-components": "^2.1.2"
   }
 }
