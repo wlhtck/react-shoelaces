@@ -1,6 +1,6 @@
 import Row from '../Row'
 
-describe('container', () => {
+describe('<Row />', () => {
   it('should render a <Row />', () => {
     expect(shallow(<Row />)).toMatchSnapshot()
   })

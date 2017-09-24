@@ -1,6 +1,6 @@
 import Container from '../Container'
 
-describe('container', () => {
+describe('<Container />', () => {
   it('should render a <Container />', () => {
     expect(shallow(<Container />)).toMatchSnapshot()
   })
